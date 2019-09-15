@@ -1,0 +1,92 @@
+Receive:display memory 
+Memory utilization statistics at 2018-12-27 22:10:47 230 ms 
+System Total Memory: 8021212 Kbytes 
+Total Memory Used: 988720 Kbytes 
+Memory Using Percentage: 12% 
+State: Non-overload 
+Overload threshold:  95%, Overload clear threshold:  75%, Duration:      60s 
+---------------------------- 
+ServiceName  MemUsage(KB) 
+---------------------------- 
+FEA                 123150 
+CMF                 106301 
+VLAN                 22124 
+SYSTEM               14708 
+FEC                  13386 
+IFM                  12360 
+DEVICE               10387 
+IP STACK              4266 
+OSPF                  3583 
+MSTP                  2134 
+RM                    1467 
+LOCAL PKT             1285 
+ARP                    974 
+EUM                    345 
+OAM                    264 
+ND                     240 
+STACKMNG               236 
+AAA                    199 
+DHCP                   183 
+FIBRESM                178 
+NETSTREAM              153 
+SLA                    143 
+SMLK                   101 
+TUNNEL                  53 
+TNLM                    50 
+PNP                     37 
+RGM                     34 
+ETRUNK                  27 
+RBS                     20 
+PEM                      0 
+---------------------------- 
+Receive:display cpu 
+CPU utilization statistics at 2018-12-27 22:10:48 475 ms 
+System CPU Using Percentage :   9% 
+CPU utilization for five seconds: 6%, one minute: 9%, five minutes: 6%. 
+Max CPU Usage :                56% 
+Max CPU Usage Stat. Time : 2015-05-21 21:32:22 866 ms 
+State: Non-overload 
+Overload threshold:  95%, Overload clear threshold:  75%, Duration:    1800s 
+--------------------------- 
+ServiceName  UseRate 
+--------------------------- 
+SYSTEM            6% 
+DEVICE            3% 
+RBS               0% 
+ETRUNK            0% 
+EUM               0% 
+OAM               0% 
+RGM               0% 
+NETSTREAM         0% 
+DHCP              0% 
+TNLM              0% 
+MSTP              0% 
+RM                0% 
+SLA               0% 
+OSPF              0% 
+PNP               0% 
+FEC               0% 
+TUNNEL            0% 
+PEM               0% 
+IP STACK          0% 
+STACKMNG          0% 
+CMF               0% 
+LOCAL PKT         0% 
+VLAN              0% 
+AAA               0% 
+ARP               0% 
+FIBRESM           0% 
+FEA               0% 
+IFM               0% 
+ND                0% 
+SMLK              0% 
+--------------------------- 
+CPU Usage Details 
+---------------------------------------------------------------- 
+CPU     Current  FiveSec   OneMin  FiveMin  Max MaxTime 
+---------------------------------------------------------------- 
+cpu0         7%       6%      12%       7%  75% 2015-05-21 21:32:24 
+cpu1        11%       4%       9%       5%  80% 2017-11-16 17:00:22 
+cpu2        11%       6%      10%       6%  83% 2015-10-27 03:20:15 
+cpu3        10%       9%       8%       9%  83% 2015-05-21 21:32:24 
+---------------------------------------------------------------- 
